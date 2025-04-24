@@ -34,24 +34,18 @@
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .adverti-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 48px;
   font-size: 14px;
   line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
-}
-
-.adverti-border-link:active {
-  background: #fbfbfb;
-}
-
-.adverti-link:active {
-  color: #0c0c0c;
 }
 
 @media screen and (min-width: 768px) {
@@ -92,5 +86,15 @@
 
   .adverti-text {
     width: 690px;
+  }
+
+  .adverti-border-link:hover,
+  .adverti-border-link:focus {
+    background: #fbfbfb;
+  }
+
+  .adverti-link:hover,
+  .adverti-link:focus {
+    color: #0c0c0c;
   }
 }
