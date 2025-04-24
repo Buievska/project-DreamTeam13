@@ -7,4 +7,90 @@
   border-radius: 30px;
   width: 335px;
   height: 363px;
+  padding: 60px 28px;
+  background-color: #0c0c0c;
+  background-image: url(../img/advertisement/advertisement-mobile-back-1x.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.adverti-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+
+.adverti-text-color {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.adverti-border-link {
+  width: 160px;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adverti-link {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.adverti-border-link:active {
+  background: #fbfbfb;
+}
+
+.adverti-link:active {
+  color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .adverti-section .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .adverti-all {
+    width: 704px;
+    height: 425px;
+    padding: 80px 64px;
+    background-image: url(../img/advertisement/advertisement-tablet-back-1x.svg);
+  }
+
+  .adverti-text {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .adverti-section .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .adverti-all {
+    width: 1150px;
+    height: 298px;
+    padding: 83px 80px;
+    background-image: url(../img/advertisement/advertisement-desk-back-1x.svg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .adverti-text {
+    width: 690px;
+  }
 }
