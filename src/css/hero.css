@@ -1,27 +1,7 @@
-.container {
-    max-width: 375px;
-    margin: auto ;
-    padding: 0 20px;
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-
-}
-
-@media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding: 0 65px;
-    }
-
-}
 
 .hero {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 
 }
 
@@ -29,7 +9,7 @@
 .hero-title {
     font-weight: 600;
     font-size: 40px;
-    line-height: 95%;
+    line-height: 0.95;
     letter-spacing: -0.02em;
     color: #0C0C0C;
     margin-bottom: 20px;
@@ -42,7 +22,7 @@
 .hero-text {
     font-weight: 500;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 28px;
@@ -94,7 +74,7 @@
 .link-skkoll {
     font-weight: 500;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
@@ -104,18 +84,23 @@
 
 @media screen and (min-width: 768px) {
 
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
     .hero-content {
         display: flex;
     }
 
     .hero-title {
         font-size: 70px;
-        line-height: 86%;
+        line-height: 0.86;
     }
 
     .hero-text {
         font-size: 16px;
-        line-height: 125%;
+        line-height: 1.25;
         letter-spacing: -0.02em;
         color: rgba(12, 12, 12, 0.7);
     }
@@ -131,7 +116,7 @@
 
     .hero {
         padding-top: 80px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     .hero-content {
@@ -143,9 +128,13 @@
         width: 597px;
     }
 
+    .hero-people {
+        margin-bottom: 0;
+    }
+
     .hero-title {
         font-size: 72px;
-        line-height: 87%;
+        line-height: 0.87;
     }
 
     .hero-text {
@@ -155,7 +144,7 @@
 
     .link-skkoll {
         font-size: 20px;
-        line-height: 100%;
+        line-height: 1;
         text-align: right ;
     }
 
