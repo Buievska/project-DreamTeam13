@@ -3,6 +3,8 @@
     height: 74px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+    background-color: #ffffff;
 }
 
 .header-container {
@@ -117,7 +119,9 @@
     .nav-list {
         display: flex;
         gap: 24px;
+        position: relative;
     }
+
 
     .social-list {
         display: flex;
@@ -142,5 +146,41 @@
     .social-link:hover .social-icon,
     .social-link:focus .social-icon {
         fill: #3350e9;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 28px;
+        color: #0c0c0c;
+        text-decoration: none;
+        position: relative;
+    }
+
+    
+    .nav-list a {
+        position: relative;
+        transition: color 0.3s ease;
+    }
+
+    .nav-list a::after {
+        content: "";
+        position: absolute;
+        bottom: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #3350e9;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+    }
+
+    .nav-list a:hover::after,
+    .nav-list a:focus::after {
+        opacity: 1;
     }
 }
