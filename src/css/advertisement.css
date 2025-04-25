@@ -9,10 +9,16 @@
   height: 363px;
   padding: 60px 28px;
   background-color: #0c0c0c;
-  background-image: url(../img/advertisement/advertisement-mobile-back-1x.svg);
+  background-image: url(../img/advertisement/advertisement-mob-bg-x1.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-resolution: 2x) {
+  .adverti-all {
+    background-image: url(../img/advertisement/advertisement-mob-bg-x2.webp);
+  }
 }
 
 .adverti-text {
@@ -58,7 +64,13 @@
     width: 704px;
     height: 425px;
     padding: 80px 64px;
-    background-image: url(../img/advertisement/advertisement-tablet-back-1x.svg);
+    background-image: url(../img/advertisement/advertisement-tab-bg-x1.webp);
+  }
+
+  @media (min-resolution: 2x) {
+    .adverti-all {
+      background-image: url(../img/advertisement/advertisement-tab-bg-x2.webp);
+    }
   }
 
   .adverti-text {
@@ -78,10 +90,16 @@
     width: 1150px;
     height: 298px;
     padding: 83px 80px;
-    background-image: url(../img/advertisement/advertisement-desk-back-1x.svg);
+    background-image: url(../img/advertisement/advertisement-desc-bg-x1.webp);
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+  }
+
+  @media (min-resolution: 2x) {
+    .adverti-all {
+      background-image: url(../img/advertisement/advertisement-desc-bg-x2.webp);
+    }
   }
 
   .adverti-text {
