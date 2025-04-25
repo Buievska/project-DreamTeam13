@@ -1,8 +1,17 @@
 .header {
-    padding: 16px 20px;
+    padding: 20px;
     height: 74px;
     display: flex;
     align-items: center;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 335px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav,
@@ -10,14 +19,78 @@
     display: none;
 }
 
-.icon-mob-menu{
-    fill: #2f2f37;
+.logo{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.mob-menu-btn {
+    width: 34px;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.mob-menu-icon {
+    position: relative;
+    display: block;
+    width: 28px;
+    height: 3px;  
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.mob-menu-icon::before,
+.mob-menu-icon::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2.5px;
+    background-color: #0c0c0c;
+    border-radius: 2px;
+    left: 0;
+}
+
+.mob-menu-icon::before {
+    top: -4px;
+}
+
+.mob-menu-icon::after {
+    top: 4px;
+
 }
 
 @media screen and (min-width: 768px) {
     .header {
         height: 92px;
     }
+
+.header-container {
+    max-width: 704px;   
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.mob-menu-icon {
+    width: 30px;
+    height: 3px;
+}
+
+.mob-menu-icon::before
+.mob-menu-icon::after {
+    width: 30px;
+    height: 3px;
+}
 }
 
 @media screen and (min-width: 1280px) {
@@ -25,7 +98,11 @@
         height: 88px;
     }
 
-    .icon-mob-menu {
+    .header-container {
+        max-width: 1151px;
+    }
+
+    .mob-menu-btn {
         display: none;
     }
 
@@ -34,20 +111,34 @@
         display: flex;
     }
 
-    .header-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
 
     .nav-list {
         display: flex;
         gap: 24px;
-        margin: 0 auto;
     }
 
     .social-list {
         display: flex;
-        gap: 12px;
+        gap: 10px;
+    }
+
+    .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        border: 1px solid rgba(12, 12, 12, 0.1);
+    }        
+
+    .social-icon {
+        fill: #0c0c0c;
+        transition: fill 0.3s ease;
+    }
+
+    .social-link:hover .social-icon,
+    .social-link:focus .social-icon {
+        fill: #3350e9;
     }
 }
