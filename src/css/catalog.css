@@ -1,6 +1,6 @@
 /* Mobile */
 .section-catalog {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .title-catalog-section {
@@ -70,7 +70,7 @@
 
 @media screen and (min-width: 768px) {
   .section-catalog {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 
   .title-catalog-section {
@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 1280px) {
   .section-catalog {
-    padding: 100px 0;
+    padding: 50px 0;
   }
   .item-catalog-list {
     width: calc((100% - 46px) / 3);
