@@ -10,6 +10,10 @@
   padding-bottom: 40px;
   padding-left: 20px;
 
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,10 +31,10 @@
   }
 }
 
-.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .menu-open-btn {
@@ -169,8 +173,6 @@
 
 @media only screen and (min-width: 1280px) {
   .mobile-menu {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    display: none;
   }
 }
