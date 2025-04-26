@@ -74,7 +74,7 @@
     color: #fbfbfb;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-us-btn:hover {
+.contact-us-btn:hover, .contact-us-btn:focus {
     background-color: #1f3cd4;
 }
 @media screen and (min-width: 768px) {
