@@ -1,7 +1,6 @@
 .mobile-menu {
   position: fixed;
-  left: 50%;
-  transform: translate(-50%);
+  right: 0;
   top: 0;
   width: 200px;
   height: 100%;
