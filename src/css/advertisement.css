@@ -106,6 +106,14 @@
     width: 690px;
   }
 
+  .adverti-border-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .adverti-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
   .adverti-border-link:hover,
   .adverti-border-link:focus {
     background: #fbfbfb;
