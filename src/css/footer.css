@@ -164,7 +164,7 @@ color: rgba(251, 251, 251, 0.5);
   align-items: flex-start;
   gap: 16px;
   flex-shrink: 1;
-  max-width: auto;
+  max-width: 100%;
 
 
 }
