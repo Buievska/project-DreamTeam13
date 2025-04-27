@@ -200,6 +200,7 @@
     height: 100%;
     z-index: 99;
     padding: 20px;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -229,7 +230,8 @@
 .menu-open-btn {
     display: block;
     margin-left: auto;
-    margin-bottom: 186px;
+    /*margin-bottom: 186px;*/
+    margin-bottom: 20px;
     stroke-width: 2.5px;
     background-color: transparent;
     stroke: #fbfbfb;
@@ -253,9 +255,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 24px;
 }
 
-.mob-soc-item {}
+.mob-soc-item {
+}
 
 .mob-menu-item:not(:last-child) {
     margin-bottom: 24px;
@@ -330,8 +334,9 @@
     .menu-open-btn {
         width: 40px;
         height: 40px;
-        margin-bottom: 244px;
+        /*margin-bottom: 244px;*/
         stroke-width: 3px;
+        margin-bottom: 20px;
     }
 
     .menu-icon {
