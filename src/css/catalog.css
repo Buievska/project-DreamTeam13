@@ -18,7 +18,7 @@
   gap: 20px;
 }
 
-.card-text-catalog-section {
+.title-card {
   margin-top: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -111,7 +111,7 @@
     display: none;
   }
 
-  .card-text-catalog-section {
+  .title-card {
     font-size: 20px;
     line-height: 1;
     /* обов'язково вказати ширину */
@@ -135,7 +135,7 @@
   .list-catalog-section {
     column-gap: 23px;
   }
-  .card-text-catalog-section {
+  .title-card {
     width: 300px;
   }
 }
