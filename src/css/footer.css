@@ -68,10 +68,7 @@ justify-content: center;
 align-items: center;
 }
 
-.footer-social-link:hover, .footer-social-link:focus {
-  fill:  #fbfbfb;
-  opacity: 1;
-}
+
 
 .footer-social-icon {
 width: 18px;
@@ -420,6 +417,11 @@ width: 100%;
     color: #fbfbfb;
     margin-right: 0;
                 
-                }
+     }
+
+  .footer-social-link:hover, .footer-social-link:focus {
+  fill:  #fbfbfb;
+   opacity: 1;
+      }
    
   }
