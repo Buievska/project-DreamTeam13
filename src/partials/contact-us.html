@@ -7,9 +7,9 @@
           Please use the form below to contact us. Enter your name, email,
           phone, and message and we'll get back to you shortly.
         </p>
-        <input class="contact-us-input" type="text" placeholder="Name" required/>
-        <input class="contact-us-input" type="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" required/>
-        <input class="contact-us-input" type="tel" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" placeholder="+380" required/>
+        <input class="contact-us-input" type="text" aria-label="name" placeholder="Name" required/>
+        <input class="contact-us-input" type="email" aria-label="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" required/>
+        <input class="contact-us-input" type="tel" aria-label="tel" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" placeholder="+380" required/>
         <textarea class="contact-us-tex" placeholder="Comment"></textarea>
         <button class="contact-us-btn" type="submit">Send</button>
       </form>
