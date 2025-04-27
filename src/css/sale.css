@@ -1,12 +1,13 @@
+.sale{
+    padding: 30px 0;
+}
+
 .sale-container {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
-    padding: 0px 20px;
-    width: 375px;
-    margin-bottom: 60px;
 }
 
 .sale-title {
@@ -156,10 +157,12 @@
 }
 
 @media screen and (min-width: 768px) {
+    .sale{
+        padding: 40px;
+    }
+    
     .sale-container {
         gap: 40px;
-        width: 704px;
-        margin-bottom: 80px;
     }
 
     .sale-title {
@@ -242,10 +245,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .sale-container {
-        padding: 0px 65px;
-        width: 1280px;
-        margin-bottom: 100px;
+    .sale{
+        padding: 50px 0px;
     }
 
     .sale-content {
