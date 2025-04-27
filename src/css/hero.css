@@ -1,156 +1,147 @@
-
-.hero {
-    padding-top: 60px;
-    padding-bottom: 30px;
-
+.section-hero {
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
-
 .hero-title {
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 0.95;
-    letter-spacing: -0.02em;
-    color: #0C0C0C;
-    margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
 }
 
 .hero-collection {
-    color: #3350E9;
+  color: #3350e9;
 }
 
 .hero-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 28px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
 }
 
-
 .hero-people {
-    display: flex;
-    margin-bottom: 28px;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex: none;
+  display: flex;
+  margin-bottom: 28px;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: none;
 }
 
 .hero-image-people {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: relative;
 }
 
 .image-list {
-    position: relative;
+  position: relative;
 }
 
 .image-list:not(:first-child) {
-    margin-left: -10px;
+  margin-left: -10px;
 }
 
 .image-list:nth-child(1) {
-    z-index: 1;
+  z-index: 1;
 }
 
 .image-list:nth-child(2) {
-    z-index: 2;
+  z-index: 2;
 }
 
 .image-list:nth-child(3) {
-    z-index: 3;
+  z-index: 3;
 }
 
 .hero-image-people img {
-    object-fit: cover;
-    border-radius: 50%;
-    stroke-width: 2px;
+  object-fit: cover;
+  border-radius: 50%;
+  stroke-width: 2px;
 }
 
 .link-skkoll {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #0C0C0C;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
 }
 
-
 @media screen and (min-width: 768px) {
+  .section-hero {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
 
-    .hero {
-        padding-top: 80px;
-        padding-bottom: 40px;
-    }
+  .hero-content {
+    display: flex;
+  }
 
-    .hero-content {
-        display: flex;
-    }
+  .hero-title {
+    font-size: 70px;
+    line-height: 0.86;
+  }
 
-    .hero-title {
-        font-size: 70px;
-        line-height: 0.86;
-    }
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+  }
 
-    .hero-text {
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
-        color: rgba(12, 12, 12, 0.7);
-    }
-
-    .hero-people {
-        flex-direction: column;
-    }
-
-
+  .hero-people {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .section-hero {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
 
-    .hero {
-        padding-top: 80px;
-        padding-bottom: 50px;
-    }
+  .hero-content {
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
 
-    .hero-content {
-        justify-content: space-between;
-        margin-bottom: 40px;
-    }
+  .hero-title-text {
+    width: 597px;
+  }
 
-    .hero-title-text {
-        width: 597px;
-    }
+  .hero-people {
+    margin-bottom: 0;
+  }
 
-    .hero-people {
-        margin-bottom: 0;
-    }
+  .hero-title {
+    font-size: 72px;
+    line-height: 0.87;
+  }
 
-    .hero-title {
-        font-size: 72px;
-        line-height: 0.87;
-    }
+  .hero-text {
+    width: 480px;
+    margin: 0;
+  }
 
-    .hero-text {
-        width: 480px;
-        margin: 0;
-    }
+  .link-skkoll {
+    font-size: 20px;
+    line-height: 1;
+    text-align: right;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-    .link-skkoll {
-        font-size: 20px;
-        line-height: 1;
-        text-align: right ;
-    }
-
-    .link-skkoll:hover,
-    .link-skkoll:focus {
-        color: #3350E9;
-    }
-
+  .link-skkoll:hover,
+  .link-skkoll:focus {
+    color: #3350e9;
+  }
 }
