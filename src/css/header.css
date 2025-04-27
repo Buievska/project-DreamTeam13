@@ -197,15 +197,10 @@
     width: 200px;
     height: 100%;
     z-index: 99;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     background-image: url(/img/modal/modal-mob-bg-x1.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -213,7 +208,7 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 250ms ease, visibility 250ms ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 @media screen and (min-resolution: 2x) {
@@ -242,12 +237,11 @@
     border: none;
 }
 
-/*.mobile-menu-container {
-  position: relative;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 40px;
-}*/
+/* .mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+} */
 
 .menu-icon {
     width: 20px;
