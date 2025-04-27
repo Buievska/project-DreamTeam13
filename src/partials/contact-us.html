@@ -1,1 +1,43 @@
+<section class="contact-us" id="contact-us">
+  <div class="container">
+    <h2 class="title-contact-us">Contact Us</h2>
+    <div class="wrapper-contact-us">
+      <form class="contact-us-form">
+        <p class="contact-us-p">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <input class="contact-us-input" type="text" placeholder="Name" required/>
+        <input class="contact-us-input" type="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" required/>
+        <input class="contact-us-input" type="tel" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" placeholder="+380" required/>
+        <textarea class="contact-us-tex" placeholder="Comment"></textarea>
+        <button class="contact-us-btn" type="submit">Send</button>
+      </form>
 
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/contact-us/contact-desc-bg-x1.webp 1x,
+            ./img/contact-us/contact-desc-bg-x2.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/contact-us/contact-tab-bg-x1.webp 1x,
+            ./img/contact-us/contact-tab-bg-x2.webp 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/contact-us/contact-mob-bg-x1.webp 1x,
+            ./img/contact-us/contact-mob-bg-x2.webp 2x
+          "
+        />
+        <img src="./img/contact-us/contact-desc-bg-x1.webp" alt="watch" />
+      </picture>
+    </div>
+  </div>
+</section>
