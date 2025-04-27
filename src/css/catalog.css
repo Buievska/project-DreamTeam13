@@ -27,6 +27,16 @@
   color: #0c0c0c;
 }
 
+.ell {
+  text-overflow: ellipsis;
+}
+
+.img-catalog-list {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .price-catalog-section {
   margin-top: 8px;
   font-weight: 400;
@@ -104,7 +114,11 @@
   .card-text-catalog-section {
     font-size: 20px;
     line-height: 1;
-
+    /* обов'язково вказати ширину */
+    white-space: nowrap; /* заборонити переноси рядків */
+    overflow: hidden; /* приховати все, що виходить за межі */
+    text-overflow: ellipsis; /* замінити обрізаний текст на "..." */
+    width: 280px;
     color: #0c0c0c;
   }
 }
@@ -120,5 +134,8 @@
   }
   .list-catalog-section {
     column-gap: 23px;
+  }
+  .card-text-catalog-section {
+    width: 300px;
   }
 }
