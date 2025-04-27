@@ -250,12 +250,23 @@ padding: 40px 40px 28px 40px;
   gap: 0;
   }
 
+  .footer-social-link {
+  
+    width: 36px;
+    height: 36px;
+   
+    }
+
 .footer {
   border-radius: 30px;
   padding: 40px 32px 32px 32px;
   }
 
+  .footer-logo {
+font-size: 20px;
 
+    }
+    
 .footer-nav-link-text {
   margin-left: auto;
   text-align: left;
@@ -275,6 +286,12 @@ flex: 1;
 .footer-address {
   margin-left: auto;
   }
+  .footer-tel {
+    
+    font-size: 14px; 
+    line-height: 1.29;
+   
+    }
 
 .company-list {
 display: flex;
@@ -308,6 +325,16 @@ margin-bottom: 100px;
 padding-left: 50px;
 padding-right: 50px;
 /* padding-top: 86px; */
+
+font-weight: 600;
+font-size: 28px;
+line-height: 1.14;
+
+/* line-height: 32px; */ 
+line-height: 1.14286;
+letter-spacing: -0.02em;
+text-align: center;
+color: #fbfbfb;
 
     }
 
@@ -375,14 +402,14 @@ width: 100%;
   
    }
 
-   .footer-logo {
-    font-size: 20px;
+  .footer-logo {
+  font-size: 20px;
     
     }
-    .footer-tel {
+  .footer-tel {
     
-      font-size: 14px; 
-      line-height: 1.29;
+    font-size: 14px; 
+    line-height: 1.29;
      
       }
 .footer-text {
@@ -423,5 +450,5 @@ width: 100%;
   fill:  #fbfbfb;
    opacity: 1;
       }
-   
-  }
+
+    }
