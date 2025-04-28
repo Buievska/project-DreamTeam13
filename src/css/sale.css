@@ -91,13 +91,14 @@
 
 .price {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
     margin-bottom: 28px;
 }
 
 .sale-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     width: 68px;
     height: 32px;
