@@ -428,9 +428,18 @@ margin-right: 0;
                 
  }
 
-.footer-social-link:hover, .footer-social-link:focus {
+.footer-social-link:hover .footer-social-icon, .footer-social-link:focus .footer-social-icon {
 fill:  #fbfbfb;
 opacity: 1;
 }
 
+.footer-tel-btn:hover,
+.footer-tel-btn:focus {
+  background-color: #fbfbfb;
+}
+
+.footer-tel-btn:hover .footer-tel,
+.footer-tel-btn:focus .footer-tel {
+  color: #0c0c0c;
+}
 }
